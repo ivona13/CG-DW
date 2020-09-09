@@ -1,0 +1,57 @@
+####### Dantzig-Wolfle with known extreme points ######
+All extreme points:
+(1, 1, 1) (1, 1, 2) (1, 2, 1) (2, 1, 1) (1, 2, 2) (2, 1, 2) (2, 2, 1) (2, 2, 2)
+A_rest_master =
+
+   18   13
+    1    1
+
+c_rest_master =
+
+  -22
+  -17
+
+b_rest_master =
+
+   17
+    1
+
+Restricted master solution:
+1. iteration of DW:
+Optimal Objective Function Value = -21.000000
+Optimal Solution =    0.80000   0.20000
+Dual:
+  -1.00000
+  -4.00000
+pi = -1.00000
+alpha = -4.0000
+Finding next extreme point:
+Objective function coefficients of subproblem:
+  -1.00000
+   1.00000
+  -2.00000
+Extreme point to be added:    2   1   2
+Object value of subproblem to find ext. point to be added: -5.000000
+2. iteration of DW:
+Optimal Objective Function Value = -21.500000
+Optimal Solution =    0.50000   0.00000   0.50000
+Dual:
+   -0.50000
+  -13.00000
+pi = -0.50000
+alpha = -13.000
+Finding next extreme point:
+Objective function coefficients of subproblem:
+  -2.5000e+00
+  -3.7748e-15
+  -4.0000e+00
+Extreme point to be added:    2   2   2
+Object value of subproblem to find ext. point to be added: -13.000000
+
+After generating columns:
+Optimal Objective Function Value = -21.500000
+Optimal Solution - lambdas:    0.50000   0.00000   0.50000
+
+Optimal solution of original master problem:    2.0000   1.5000   2.0000
+
+
